@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        height: 250px;
+        width: 243px;
+      }
+      /* @media screen and (min-width:0px) and (max-width:425px)  {
+            .anu,.sai {
+                display: none;
+
+            }
+            
+        }
+        @media screen  and (min-width:426px) and (max-width:768px)  {
+            .sam,.sai {
+                display: none;
+            }
+            
+        }
+        @media screen  and (min-width:769px) {
+            .sam,.anu {
+                display: none;
+            }
+            
+        } */
+      @media screen and (orientation: landscape) {
+        body {
+          background-color: aqua;
+        }
+        .div1 {
+          border: 2px solid black;
+          padding: 10px;
+          background-color: lavender;
+        }
+      }
+      @media screen and (orientation: portrait) {
+        body {
+          background-color: gray;
+        }
+        .div1 {
+          border: 2px solid palevioletred;
+          padding: 10px;
+          background-color: antiquewhite;
+        }
+      }
+      .p {
+        background-color: pink;
+      }
+      .cd {
+        width: 250px;
+      }
+      @media screen and (min-width: 0px) and (max-width: 475px) {
+        .div1 {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .div1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      .div1 div {
+        border: 2px solid black;
+        justify-content: center;
+      }
+      h1 {
+        border: 2px solid black;
+        padding: 10px;
+        background-color: white;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flex layout using Media Queries</h1>
+    <div class="div1">
+      <div class="cd">
+        <div>
+          <img
+            height="200px"
+            width="200px"
+            src="https://w0.peakpx.com/wallpaper/853/969/HD-wallpaper-samantha-actress-films-samantha-ruth-prabhu-telugu-movie-samantha-akkineni-telugu-actress-samanthaakkineni-bollywood-actress.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          style="height: 50px; overflow-y: scroll; background-color: lightblue"
+        >
+          <p>
+            Samantha Ruth Prabhu (born 28 April 1987) is an Indian actress who
+            works predominantly in Telugu and Tamil films. One of South India's
+            highest-paid actresses,[2][3][4] Samantha is the recipient of
+            several accolades, including four Filmfare Awards South and a Tamil
+            Nadu State Film Award.
+          </p>
+        </div>
+        <div class="p">
+          <p>Samantha</p>
+        </div></div>
+        <div class="cd">
+          <div>
+            <img
+              height="200px"
+              width="200px"
+              src="https://m.media-amazon.com/images/M/MV5BODY0ZTBjMmMtYWFhYi00ZTkxLWI0OTItNTkxMmY1MDhhMWE2XkEyXkFqcGc@._V1_.jpg"
+              alt=""
+            />
+          </div>
+        
+
+        <div
+          style="height: 50px; overflow-y: scroll; background-color: lightblue"
+        >
+          <p>
+            Sweety Shetty (born 7 November 1981), known by her stage name
+            Anushka Shetty, is an Indian actress known for her work majorly in
+            Telugu and Tamil cinema. She is the recipient of three Filmfare
+            Awards South, two Nandi Awards, two SIIMA Awards and one Tamil Nadu
+            State Film Award. Having appeared over 50 films in a variety of
+            roles, she is one of the highest-paid South Indian
+            actresses.[3][4][5] She was honoured with Kalaimamani in 2010 by the
+            Government of Tamil Nadu.
+          </p>
+        </div>
+        <div class="p">
+          <p>Anushka shetty</p>
+        </div>
+      </div>
+
+        <div class="cd">
+          <div>
+            <img
+              height="200px"
+              width="200px"
+              src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/sai-pallavi-270104457-1x1.jpeg?VersionId=sQkKcbe0NDCvtj_XA6gbopQRpXaIRatN"
+              alt=""
+            />
+          </div>
+        
+        <div
+          style="height: 50px; overflow-y: scroll; background-color: lightblue"
+        >
+          <p>
+            Sai Pallavi Senthamarai Kannan (pronounced [saɪ paˈləvi]; born 9 May
+            1992)[2] is an Indian actress who predominantly works in Tamil and
+            Telugu cinema.[3] She has received numerous accolades, including six
+            Filmfare Awards South and two South Indian International Movie
+            Awards. She was featured by Forbes magazine as one of India's 30
+            Under 30 in 2020
+          </p>
+        </div>
+        <div class="p">
+          <p>Sai pallavi</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
